@@ -38,5 +38,9 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Image upload and auto-create thumbnails
 gem 'carrierwave'
 gem 'mini_magick', '~> 3.7.0'
+
+# Manage user authentification
+gem 'devise', '~> 3.2.4'
